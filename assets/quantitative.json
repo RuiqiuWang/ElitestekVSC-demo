@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-02",
+  "runtime_release": {
+    "starry": {
+      "completed_frames": 2304,
+      "seconds": 153.59399999998277,
+      "fps": 15.00058596039076,
+      "fps_intervals": [
+        15.004102684399816,
+        15.002344116256703,
+        15.004102684297443,
+        14.976014975979075,
+        15.03229594840458,
+        15.002344116256703,
+        14.976014975979075,
+        15.004102684297443,
+        15.03229594840458,
+        14.976014975979075,
+        15.002344116256703,
+        14.949778089272955,
+        15.058823529411764,
+        15.004102684297443,
+        14.976014975979075,
+        15.004102684399816,
+        15.030530765611907,
+        14.976014975979075
+      ],
+      "model_ms_mean": 61.110578947368424,
+      "markers": 19
+    },
+    "ukiyoe": {
+      "completed_frames": 512,
+      "seconds": 34.14100000000326,
+      "fps": 14.996631615944205,
+      "fps_intervals": [
+        14.976014975979075,
+        15.004102684297443,
+        15.004102684399816,
+        15.002344116256703
+      ],
+      "model_ms_mean": 60.590938,
+      "markers": 5
+    },
+    "ink": {
+      "completed_frames": 384,
+      "seconds": 25.60899999999674,
+      "fps": 14.994728415793231,
+      "fps_intervals": [
+        14.976014976081066,
+        14.976014975979075,
+        15.03229594830182
+      ],
+      "model_ms_mean": 61.66254,
+      "markers": 4
+    }
+  },
+  "quality_teacher": {
+    "starry": {
+      "n": 64,
+      "psnr_db": 18.14581070976964,
+      "ssim": 0.45076376345687086
+    },
+    "ukiyoe": {
+      "n": 64,
+      "psnr_db": 21.503816885739408,
+      "ssim": 0.732571155124834
+    },
+    "ink": {
+      "n": 64,
+      "psnr_db": 23.04133735662441,
+      "ssim": 0.8125856096596995
+    }
+  },
+  "instrumented_board": {
+    "1": {
+      "name": "蓝白浮世绘",
+      "completed_frames": 384,
+      "seconds": 25.59399999998277,
+      "fps": 15.003516449177873,
+      "fps_intervals": [
+        14.976014976081066,
+        15.004102684297443,
+        15.030530765611907
+      ],
+      "model_ms_mean": 61.6419625,
+      "markers": 4,
+      "stage_ms_single_frame": [
+        11.06516,
+        4.74526,
+        5.92455,
+        4.16962,
+        5.65977,
+        4.35157,
+        5.83083,
+        4.00329,
+        16.3123
+      ],
+      "single_frame_total_ms": 62.06235,
+      "coefficient_ms": 2.75592,
+      "normalization_execution_ms": 3.12594,
+      "bind_ms": 1.99243
+    },
+    "2": {
+      "name": "红青水墨",
+      "completed_frames": 384,
+      "seconds": 25.60999999998603,
+      "fps": 14.994142912932817,
+      "fps_intervals": [
+        15.004102684399816,
+        15.002344116256703,
+        14.976014975979075
+      ],
+      "model_ms_mean": 62.835285,
+      "markers": 4,
+      "stage_ms_single_frame": [
+        11.02861,
+        4.81829,
+        5.88408,
+        4.21558,
+        5.72308,
+        4.25392,
+        5.75585,
+        3.93016,
+        17.04624
+      ],
+      "single_frame_total_ms": 62.65581,
+      "coefficient_ms": 2.75047,
+      "normalization_execution_ms": 3.09088,
+      "bind_ms": 1.99388
+    },
+    "0": {
+      "name": "梵高星月夜",
+      "completed_frames": 384,
+      "seconds": 26.0,
+      "fps": 14.76923076923077,
+      "fps_intervals": [
+        14.760147601441142,
+        14.787430683889236,
+        14.760147601540213
+      ],
+      "model_ms_mean": 63.8648325,
+      "markers": 4,
+      "stage_ms_single_frame": [
+        11.03743,
+        4.84014,
+        6.00933,
+        4.22392,
+        5.63742,
+        4.15289,
+        5.76754,
+        6.09754,
+        16.22413
+      ],
+      "single_frame_total_ms": 63.99034,
+      "coefficient_ms": 2.84153,
+      "normalization_execution_ms": 3.125,
+      "bind_ms": 2.01756
+    }
+  },
+  "stages": [
+    "Stem 3×3 下采样",
+    "Down 3×3 下采样",
+    "实例归一化（含系数）",
+    "残差块1：卷积1",
+    "残差块1：卷积2＋相加",
+    "残差块2：卷积1",
+    "残差块2：卷积2＋相加",
+    "Up 1×1 特征映射",
+    "Head＋融合重排＋RGB输出"
+  ],
+  "limits": [
+    "Board stage values are one complete frame snapshot per style, not sample means. UART FPS covers several steady intervals with no halt inside each interval.",
+    "Stage durations include software dispatch, DDR access and hardware waiting, not pure MAC cycles.",
+    "The timing build only retains existing stage clock deltas; its FPS is identified separately from release.",
+    "PSNR/SSIM are FP32 RGB8 against respective targets on development scenes, not actual FPGA image quality or independent held-out test.",
+    "Head-B reference metric for starry is a different calibration task and not comparable to the two Teacher-distillation scores.",
+    "Binding time excludes frame-boundary wait, input debounce, and display VSYNC. Full switch <100ms unverified.",
+    "12.114 FPS historical result included debugger pauses and a different version; +24% cannot be assigned solely to pipeline optimization."
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "scene-0.mp4",
+    "bytes": 1524704,
+    "frames": 90,
+    "fps": 15,
+    "crop": "crop=352:264:144:108"
+  },
+  {
+    "file": "scene-1.mp4",
+    "bytes": 737138,
+    "frames": 90,
+    "fps": 15,
+    "crop": "crop=464:348:88:66"
+  },
+  {
+    "file": "scene-2.mp4",
+    "bytes": 934919,
+    "frames": 90,
+    "fps": 15,
+    "crop": "crop=248:186:196:30"
+  },
+  {
+    "file": "scene-3.mp4",
+    "bytes": 1526627,
+    "frames": 90,
+    "fps": 15,
+    "crop": "crop=512:384:128:96"
+  }
+]
