@@ -1,60 +1,128 @@
 [
   {
     "file": "scene-0.mp4",
-    "bytes": 1524704,
+    "bytes": 1585922,
     "frames": 90,
     "fps": 15,
-    "crop": "crop=352:264:144:108"
+    "input_sha256": "8d6a8853b12ec6b4cccc470810ceaf1eb728695b83468547932d721d87ed96c3",
+    "sha256": "b02d6e85b675578d0f98cc06a897663f7277edf14193f416aea1a04c610a6095",
+    "crop": [
+      144,
+      108,
+      352,
+      264
+    ]
   },
   {
     "file": "scene-1.mp4",
-    "bytes": 737138,
+    "bytes": 696604,
     "frames": 90,
     "fps": 15,
-    "crop": "crop=464:348:88:66"
+    "input_sha256": "cfd4505e62b5f715feee93bee09538d3e9d0c88d4fabb6e733210d441900e1c0",
+    "sha256": "fe1e329c78ec1a61fe734cd6cb071b786fadd1ad7e732a7aad9d469ab34fa220",
+    "crop": [
+      88,
+      66,
+      464,
+      348
+    ]
   },
   {
     "file": "scene-2.mp4",
-    "bytes": 934919,
+    "bytes": 1128862,
     "frames": 90,
     "fps": 15,
-    "crop": "crop=248:186:196:30"
+    "input_sha256": "ef14208d573360e2d6770a3156fc641dc3a0d4327b8dd62dfe361fded3519193",
+    "sha256": "77a87af559815d871d609e3ed83812d008b6eb5015d9beb75b931371f4c63e49",
+    "crop": [
+      196,
+      30,
+      248,
+      186
+    ]
   },
   {
     "file": "scene-3.mp4",
-    "bytes": 1526627,
+    "bytes": 1574047,
     "frames": 90,
     "fps": 15,
-    "crop": "crop=512:384:128:96"
+    "input_sha256": "42c1f8bb9175cc860e47c7f2d0272447d8923b9934bd3ee56921bbd438ba4caf",
+    "sha256": "39c61d7d2c54978eb5b96030a1e1e3aa790e163123329ae2a2f05cfd9bc09c2b",
+    "crop": [
+      128,
+      96,
+      512,
+      384
+    ]
   },
   {
     "file": "scene-4.mp4",
-    "bytes": 1431253,
+    "bytes": 1554556,
     "frames": 90,
-    "fps": 15
+    "fps": 15,
+    "input_sha256": "68e68dcc43558a2b14388a626f2d2917ed22e583907122a0d28191559addd6fa",
+    "sha256": "6505f7e9f3cef3ee179b1c38d7ce0dd656124b6859aac2446ffed58418388a8d",
+    "crop": [
+      0,
+      0,
+      640,
+      480
+    ]
   },
   {
     "file": "scene-5.mp4",
-    "bytes": 791479,
+    "bytes": 887066,
     "frames": 90,
-    "fps": 15
+    "fps": 15,
+    "input_sha256": "e7a9f73ac7fdb86e63ef8b36e30d5f44487b60a8b224aac5fe8a081dd451dfd5",
+    "sha256": "4cea733d27e8a0d277017cd557a881f088d6272d51c53c1d4190ac90dc27d9a8",
+    "crop": [
+      88,
+      66,
+      464,
+      348
+    ]
   },
   {
     "file": "scene-6.mp4",
-    "bytes": 1166059,
+    "bytes": 1279988,
     "frames": 90,
-    "fps": 15
+    "fps": 15,
+    "input_sha256": "ea0525e2856e85e1b6837a5e7455c6227fa9697d0f460ebf615585d6a339ac26",
+    "sha256": "6d32de51672a9d2eb5b7a61852643c96e3404096872d047862e42ff1e56135fa",
+    "crop": [
+      0,
+      0,
+      640,
+      480
+    ]
   },
   {
     "file": "scene-7.mp4",
-    "bytes": 1249361,
+    "bytes": 1370818,
     "frames": 90,
-    "fps": 15
+    "fps": 15,
+    "input_sha256": "177d49a776d390df897b43b8023754f7734b5cd2d4ce83b6b538f8de2c6a3210",
+    "sha256": "c3173addc5420af4abf8fc968f8a19fbf1b56180ace5daed6a3565345bb53e29",
+    "crop": [
+      0,
+      0,
+      640,
+      480
+    ]
   },
   {
     "file": "scene-8.mp4",
-    "bytes": 1660545,
+    "bytes": 1719806,
     "frames": 90,
-    "fps": 15
+    "fps": 15,
+    "input_sha256": "82ed1c310e281725504919bdaa3ae7551ea446a992700d9a6936eef06868912d",
+    "sha256": "44f29dfa633349a4b3d79ed1c21f63fa494708fd3d6b9f1d5f4929b663dc4b63",
+    "crop": [
+      0,
+      0,
+      640,
+      480
+    ]
   }
 ]

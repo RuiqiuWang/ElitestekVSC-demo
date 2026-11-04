@@ -176,5 +176,121 @@
     "Head-B reference metric for starry is a different calibration task and not comparable to the two Teacher-distillation scores.",
     "Binding time excludes frame-boundary wait, input debounce, and display VSYNC. Full switch <100ms unverified.",
     "12.114 FPS historical result included debugger pauses and a different version; +24% cannot be assigned solely to pipeline optimization."
-  ]
+  ],
+  "web_preview_20261104": {
+    "validation_scenes": 16,
+    "styles": [
+      {
+        "style": "starry",
+        "baseline": {
+          "psnr": 17.869571685791016,
+          "ssim": 0.46647348560795776,
+          "edge_mae": null
+        },
+        "selected": {
+          "step": 600,
+          "psnr": 21.327415466308594,
+          "ssim": 0.5044797354386288,
+          "edge_mae": null
+        },
+        "history": [
+          {
+            "step": 200,
+            "psnr": 20.636741638183594,
+            "ssim": 0.48745936441806537,
+            "edge_mae": null
+          },
+          {
+            "step": 400,
+            "psnr": 21.084177017211914,
+            "ssim": 0.49470673364447637,
+            "edge_mae": null
+          },
+          {
+            "step": 600,
+            "psnr": 21.327415466308594,
+            "ssim": 0.5044797354386288,
+            "edge_mae": null
+          }
+        ],
+        "steps": 600,
+        "sha": "0da5b4070af706bbe62985cb9a6d2330c05fb4262fe11adb619a60a845bf85b1",
+        "init": "149e1ae773e542cc84ed6d54d0eb6d5bf6ff5e5ebf816dc9915ce579c7e6e194"
+      },
+      {
+        "style": "ukiyoe",
+        "baseline": {
+          "psnr": 20.338314056396484,
+          "ssim": 0.7119844084588511,
+          "edge_mae": 30.363353729248047
+        },
+        "selected": {
+          "step": 600,
+          "psnr": 21.722156524658203,
+          "ssim": 0.7277690874661952,
+          "edge_mae": 22.26219940185547
+        },
+        "history": [
+          {
+            "step": 200,
+            "psnr": 21.495450973510742,
+            "ssim": 0.7227702937422136,
+            "edge_mae": 23.658353805541992
+          },
+          {
+            "step": 400,
+            "psnr": 21.59286880493164,
+            "ssim": 0.7259712548950661,
+            "edge_mae": 22.810508728027344
+          },
+          {
+            "step": 600,
+            "psnr": 21.722156524658203,
+            "ssim": 0.7277690874661952,
+            "edge_mae": 22.26219940185547
+          }
+        ],
+        "steps": 600,
+        "sha": "4eb5b0bb4ec1399c7f50f8c424ddc653ff67ed095eac682ff59b0ede22469407",
+        "init": "d07e3b91cda1daf02c2381db6d21186f9e678c97c62efe6c8aba06818ce2fd7a"
+      },
+      {
+        "style": "ink",
+        "baseline": {
+          "psnr": 19.753379821777344,
+          "ssim": 0.7739837732798638,
+          "edge_mae": 29.91550064086914
+        },
+        "selected": {
+          "step": 600,
+          "psnr": 22.67896842956543,
+          "ssim": 0.7951658686529592,
+          "edge_mae": 16.170215606689453
+        },
+        "history": [
+          {
+            "step": 200,
+            "psnr": 21.90617561340332,
+            "ssim": 0.7881936574221509,
+            "edge_mae": 17.336122512817383
+          },
+          {
+            "step": 400,
+            "psnr": 22.435832977294922,
+            "ssim": 0.7935522340815785,
+            "edge_mae": 16.668283462524414
+          },
+          {
+            "step": 600,
+            "psnr": 22.67896842956543,
+            "ssim": 0.7951658686529592,
+            "edge_mae": 16.170215606689453
+          }
+        ],
+        "steps": 600,
+        "sha": "4ee4d557af462ad55eb6310ea9644374185b2ef2ed2aeba1cbc1a87790c52253",
+        "init": "12b32547d5aaa003d4681ee168a6a35c67f796da7dfdd92c94b8df05912f6264"
+      }
+    ]
+  }
 }
